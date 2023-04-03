@@ -4,6 +4,7 @@ This is my personal website project. I created this website to showcase my skill
 ## Table of Contents
 - [Branley's Portal](#branleys-portal)
 - [Technologies Used](#technologies-used)
+- [Installation](#installation)
 - [How To Use](#how-to-use)
 - [Features](#features)
 - [Future Plans](#future-plans)
