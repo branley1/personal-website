@@ -27,14 +27,14 @@ That's it! To view the website, simply open the ```second-website.html``` file i
 
 ## How To Use
 The website consists of several sections:
-  - Header: contains a brief introduction and links to Branley's social media profiles
-  - About: provides more information about Branley, including their education and interests
-  - Course Highlight: showcases some of the courses Branley has taken and their favorite projects from each course
-  - Relevant Experience: summarizes Branley's relevant work experience, including internships and projects
-  - Projects & Certifications: highlights some of Branley's personal projects and certifications
-  - Contact Information: provides several ways to get in touch with Branley, including email, phone, and LinkedIn
+  - Header: The header contains a brief introduction to my academic life, that is, my courses of study, school and a picture of me in school—which sets up the theme for the entire website.
+  - Who Am I?: This section provides more information about me, including my education and interests.
+  - Course Highlight: Showcases some of the courses I have taken and my favorite projects from each course.
+  - Relevant Experience: Summarizes my relevant work experience, including internships and projects.
+  - Projects & Certifications: highlights some of my personal projects and certifications, such as this website and the flashcard app.
+  - Contact Information: Provides several ways to get in touch with me, including email, phone, and LinkedIn among others.
 
-The navigation bar at the top of the page allows users to easily navigate to each section. When the user scrolls past the header section on the "relevant experiences" page, the navigation bar becomes fixed to the top of the screen. The navigation bar is relative on the home page and does not offer this flexibility. 
+The navigation bar at the top of the page allows users to easily navigate to each section. When the user scrolls past the header section on the "relevant experiences" page, the navigation bar becomes fixed to the top of the screen. The navigation bar is relative on the home page and does not offer this flexibility. However,the blend of colors and shape of sections make the website feel aesthetically appealing to the eye and I intend to invest more on this.
 
 I needed JavaScript to activate an eventListener that would capture the user scrolls while in use and adjust accordignly but that's part of my [future plans](#future-plans).
 
@@ -42,8 +42,9 @@ I needed JavaScript to activate an eventListener that would capture the user scr
 ## Features
 - Responsive design: The website is optimized to look good on all screen sizes, from desktops to mobile devices.
 - Navigation bar: The navigation bar at the top of the page allows users to easily navigate to different sections of the website.
-- Projects and certifications: The "Projects & Certifications" section showcases some of my notable projects and certifications.
-- Contact information: The "Contact" section provides users with various ways to contact me, including email and social media.
+- Skills: The skills section uses a custom split-class to separate the ```<li>``` listed elements, and I use ```flex``` to split the two columns and later CSS to give it a more modern color, shape and design.
+- Projects and certifications: The "Projects & Certifications" section showcases some of my notable projects and certifications, and is still currently under development.
+- Contact information: The "Contact" section provides users with various ways to contact me, including email and social media. It is well developed with clickable hyperlinks and icons, and can also be used to email me.
 
 ## Future Plans
 In the future, I plan to add more projects and certifications to the website, as well as improve the overall design and user experience.
