@@ -50,7 +50,7 @@ In the future, I plan to add more projects and certifications to the website, as
 
 Incorporate JavaScript into the project to make it reactive and responsive to user input via mouse clicks/scroll button.
 
-Complete and deploy the website live on a cheap hosting environment — currently looking at GitHub Pages but I'm open to new technologies and other alternatives.
+Complete and deploy the live website to a cheap hosting environment — currently looking at GitHub Pages but I'm open to new technologies and other alternatives.
 
 ## Credits
 The website was mainly designed by me, and I tried to apply every bit of personalization to make the project unique and stand out.
