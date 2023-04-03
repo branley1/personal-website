@@ -25,6 +25,7 @@ header {
   align-items: center;
   justify-content: space-between;
   z-index: 999;
+  border-radius: 20px 20px 0 0;
 }
 
 header img {
@@ -50,11 +51,12 @@ header p {
 
 /*Navigation bar at the top of the page, below the header, this adjusts the look and feel*/
 .navbar {
-  background-color: #2a3c2e;
+  background-color: #03180bfe;  /* 2a3c2e previous shade of green*/
   position: relative;
   color: #c3edc0;
   padding: 0.5rem;
   z-index: 999;
+  border-radius: 0 0 20px 20px;
 }
 
 .navbar a {
@@ -66,8 +68,8 @@ header p {
 }
 
 /* trying to achieve a swarthmore-style navigation bar that appears and reappears when scrolling */
-.navbar.fixed{
-  background-color: #2a3c2e;
+.navbar.relative{
+  background-color: #03180bfe;
   color: #c3edc0;
   position: fixed;
   top: 0;
@@ -144,58 +146,6 @@ ul li a {
   text-decoration: none;
 }
 
-/*To display the extracurricular section, this code sets the basic styles for the job title, location, dates, and description. job-dates is positioned on the right of the job using the "margin-left: auto" property*/
-.experience-section {
-  margin-bottom: 30px;
-}
-
-.job {
-  margin-bottom: 20px;
-}
-
-.job h3 {
-  margin: 0 0 5px;
-}
-
-.job p {
-  margin: 0;
-}
-
-.job .location {
-  font-style: italic;
-}
-
-.job .date {
-  float: right;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-
-.job-entry {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.job-title {
-  font-weight: bold;
-}
-
-.job-location {
-  margin-bottom: 10px;
-}
-
-.job-dates {
-  margin-left: auto;
-  float: right;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-
-.job-description {
-  margin-top: 10px;
-}
-
 form label {
   display: block;
   margin-bottom: 10px;
@@ -242,7 +192,7 @@ header p {
 }
 
 .navbar {
-  background-color: #1d3128;
+  background-color: #03180bfe; /* 1d3128 previous shade of green */
 }
 
 .navbar a {
@@ -268,14 +218,95 @@ ul li a:hover {
   color: #c8e2c6;
 }
 
+/* Adjust the skills section to have a more modern outlook */
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: #03180bfe;
+  border-radius: 30px;
+  padding: 10px 0 1;
+  text-align: center;
+}
+
+.technical-skills, .interpersonal-skills {
+  flex: 1;
+  max-width: 400px;
+  padding-left: 30px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding: auto;
+  position: relative;
+}
+
+ul li:before {
+  content: "•";
+  color: #bdd6bb;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.interpersonal-skills ul li:before {
+  content: "◦";
+  color: #bdd6bb;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    border-radius: 0;
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .technical-skills, .interpersonal-skills {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+
+
 form input[type="submit"] {
-  background-color: #1d3128;
+  background-color: #03180bfe;
   font-size: 12px;
   transition: background-color 0.2s;
 }
 
 form input[type="submit"]:hover {
-  background-color: #213a31;
+  background-color: #03180bfe;
 }
 
 /* To make the links the same color as other text even when clicked */
@@ -295,13 +326,13 @@ a:visited {
 
   
   form input[type="submit"] {
-    background-color: #1d3128;
+    background-color: #03180bfe;
     font-size: 12px;
     transition: background-color 0.2s;
   }
   
   form input[type="submit"]:hover {
-    background-color: #213a31;
+    background-color: #03180bfe;
   }
 
 /* Create contact information section with blue hyperlinks, and turn to light green 0n hover */
@@ -334,9 +365,10 @@ a:visited {
 
 /* to include footer that uses bootstrap */
 footer {
-  background-color: #1d3128;
+  background-color: #03180bfe;
   color: #bdd6bb;
   padding: 20px 0;
+  border-radius: 20px 20px 0 0;
 }
 
 footer a {
@@ -376,9 +408,9 @@ main{
   <main class="container">
     <section id="about me">
         <h2>Who Am I?</h2>
-        <p>I am a rising sophomore at Swarthmore College, and I just started to look for CS internship roles for Summer 2023. As a Computer Science major and Cognitive Science minor, my interests are broadly in Artificial Intelligence and Computational Linguistics.</p> 
+        <p>I am a rising sophomore at Swarthmore College, and I just started to look for CS internship roles for Summer 2023. As a Computer Science major and Cognitive Science minor, my interests are broadly in Artificial Intelligence and Computational Linguistics. <br><br> 
 
-        <p>I intend to use natural language processing to identify knowledge implicit in large collections of text and apply this knowledge to build innovative applications. This way, I want to finesse human-computer interactions and create a proper understanding between machines and humans.</p>
+        I intend to use natural language processing to identify knowledge implicit in large collections of text and apply this knowledge to build innovative applications. This way, I want to finesse human-computer interactions and create a proper understanding between machines and humans.</p>
       </section>
 
       <section>
@@ -407,7 +439,7 @@ main{
         <h2>Skills</h2>
         <div class="skills-container">
           <div class="technical-skills">
-            <h4>Technical:</h4>
+            <h5>Technical</h5>
             <ul>
               <li>Python Programming Language</li>
               <li>Swift Programming Language, SwiftUI, Xcode</li>
@@ -423,7 +455,7 @@ main{
             </ul>
           </div>
           <div class="interpersonal-skills">
-            <h4>Interpersonal:</h4>
+            <h5>Interpersonal</h5>
             <ul>
               <li>Leadership</li>
               <li>Willingness to learn</li>

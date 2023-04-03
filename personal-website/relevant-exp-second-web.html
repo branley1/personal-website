@@ -14,6 +14,7 @@
     padding: 0;
     font-family: 'Gill Sans', sans-serif;
     font-size: 18px;
+    color: #ececff;
   }
   
   header {
@@ -27,6 +28,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 999;
+    border-radius: 20px 20px;
   }
   
   header img {
@@ -58,6 +60,7 @@
     padding: 0.5rem;
     padding-bottom: 0.5rem;
     z-index: 998;
+    border-radius: 20px 20px;
   }
   
   .navbar a {
@@ -77,6 +80,7 @@
     left: 0;
     right: 0;
     width: 100%;
+    max-width: none;
     z-index: 998;
 }
   
@@ -89,9 +93,11 @@
     margin: 10px;
   }
   
+  /* Section titles, such us Professional, Extracurr- etc */
   section h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #bdd6bb; /* Change the color to whatever you prefer */
   }  
   
   
@@ -99,7 +105,7 @@
     display: block;
     margin-bottom: 10px;
   }
-   /*To display the extracurricukar section, this code sets the basic styles for the job title, location, dates, and description. job-dates is positioned on the right of the job using the "margin-left: auto" property*/
+   /*To display the extracurricular section, this code sets the basic styles for the job title, location, dates, and description. job-dates is positioned on the right of the job using the "margin-left: auto" property*/
    .experience-section {
     margin-bottom: 30px;
   }
@@ -150,6 +156,7 @@
   .job-description {
     margin-top: 10px;
   }
+
   form input,
   form textarea {
     width: 50%;
@@ -174,18 +181,18 @@
   .footer{
       height: 10%
   }
-
-  /* to make the body of the website occupy 85% of the browser window */
-main{
-  margin: 0 auto;
-  width: 85%;
-}
   
   /* Additional styling for to create the green aesthetic vibe that contrasts the profile photo */
   
   body {
     background-color: #213a31;
     color: #bdd6bb;
+    /* ececff */
+
+    /* to make the body of the website occupy 85% of the browser window */
+    margin: 0 auto;
+    max-width: 95%;
+
   }
   
   header h1 {
@@ -197,7 +204,7 @@ main{
   }
   
   .navbar {
-    background-color: #1d3128;
+    background-color: #03180bfe;
   }
   
   .navbar a {
@@ -238,15 +245,18 @@ a:visited {
   color: #f8f8f8; /* to set color of visited links to the same as normal links */
 }
 
-  
+/* Make the job descriptions are white, or a lighter shade of green than the rest of the body */
+  .description {
+    color: #defae0;
+  }
   form input[type="submit"] {
-    background-color: #1d3128;
+    background-color: #03180bfe;
     font-size: 12px;
     transition: background-color 0.2s;
   }
   
   form input[type="submit"]:hover {
-    background-color: #213a31;
+    background-color: #03180bfe;
   }
 
 /* Create contact information section with blue hyperllinks, and turn to light green 0n hover */
