@@ -12,7 +12,7 @@ This is my personal website project. I created this website to showcase my skill
 - [Licenses](#licenses)
 
 ## Technologies Used
-The website was built using HTML, CSS and JavaScript. The following tools and frameworks were also used:
+The website was built using HTML, CSS and a little bit of JavaScript. The following tools and frameworks were also used:
 - Bootstrap: a CSS framework for building responsive and mobile-first websites
 - Font Awesome: a library of icons and symbols
 - Google Fonts: a collection of free and open-source fonts
