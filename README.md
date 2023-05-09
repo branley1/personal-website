@@ -21,8 +21,8 @@ The website was built using HTML, CSS and a little bit of JavaScript. The follow
 
 ## Installation
 To install the website locally, follow these steps:
-- Clone the repository: ```git clone https://github.com/branley1/personal-website.git```
-- Navigate to the directory: ```cd personal-website```
+- Clone the repository: ```git clone https://github.com/branley1/website-update.git```
+- Navigate to the directory: ```cd website-update```
 
 That's it! To view the website, simply open the ```second-website.html``` file in a web browser. The website should be fully functional and responsive.
 
